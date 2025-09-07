@@ -1,0 +1,54 @@
+{
+  "properties": [
+    {
+      "name": "datasources.dataSources.postgresql.url",
+      "type": "java.lang.String",
+      "description": "PostgreSQL database URL."
+    },
+    {
+      "name": "datasources.dataSources.postgresql.username",
+      "type": "java.lang.String",
+      "description": "PostgreSQL database username."
+    },
+    {
+      "name": "datasources.dataSources.postgresql.password",
+      "type": "java.lang.String",
+      "description": "PostgreSQL database password."
+    },
+    {
+      "name": "datasources.dataSources.postgresql.schema",
+      "type": "java.lang.String",
+      "description": "PostgreSQL database schema."
+    },
+    {
+      "name": "datasources.dataSources.postgresql.driverClassName",
+      "type": "java.lang.String",
+      "description": "PostgreSQL database driver class name."
+    },
+    {
+      "name": "datasources.dataSources.sqlserver.url",
+      "type": "java.lang.String",
+      "description": "SQL Server database URL."
+    },
+    {
+      "name": "datasources.dataSources.sqlserver.username",
+      "type": "java.lang.String",
+      "description": "SQL Server database username."
+    },
+    {
+      "name": "datasources.dataSources.sqlserver.password",
+      "type": "java.lang.String",
+      "description": "SQL Server database password."
+    },
+    {
+      "name": "datasources.dataSources.sqlserver.schema",
+      "type": "java.lang.String",
+      "description": "SQL Server database schema."
+    },
+    {
+      "name": "datasources.dataSources.sqlserver.driverClassName",
+      "type": "java.lang.String",
+      "description": "SQL Server database driver class name."
+    }
+  ]
+}
