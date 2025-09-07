@@ -1,52 +1,52 @@
 {
   "properties": [
     {
-      "name": "datasources.dataSources.postgresql.url",
+      "name": "spring.datasource.postgresql.url",
       "type": "java.lang.String",
       "description": "PostgreSQL database URL."
     },
     {
-      "name": "datasources.dataSources.postgresql.username",
+      "name": "spring.datasource.postgresql.username",
       "type": "java.lang.String",
       "description": "PostgreSQL database username."
     },
     {
-      "name": "datasources.dataSources.postgresql.password",
+      "name": "spring.datasource.postgresql.password",
       "type": "java.lang.String",
       "description": "PostgreSQL database password."
     },
     {
-      "name": "datasources.dataSources.postgresql.schema",
+      "name": "spring.datasource.postgresql.schema",
       "type": "java.lang.String",
       "description": "PostgreSQL database schema."
     },
     {
-      "name": "datasources.dataSources.postgresql.driverClassName",
+      "name": "spring.datasource.postgresql.driver-class-name",
       "type": "java.lang.String",
       "description": "PostgreSQL database driver class name."
     },
     {
-      "name": "datasources.dataSources.sqlserver.url",
+      "name": "spring.datasource.sqlserver.url",
       "type": "java.lang.String",
       "description": "SQL Server database URL."
     },
     {
-      "name": "datasources.dataSources.sqlserver.username",
+      "name": "spring.datasource.sqlserver.username",
       "type": "java.lang.String",
       "description": "SQL Server database username."
     },
     {
-      "name": "datasources.dataSources.sqlserver.password",
+      "name": "spring.datasource.sqlserver.password",
       "type": "java.lang.String",
       "description": "SQL Server database password."
     },
     {
-      "name": "datasources.dataSources.sqlserver.schema",
+      "name": "spring.datasource.sqlserver.schema",
       "type": "java.lang.String",
       "description": "SQL Server database schema."
     },
     {
-      "name": "datasources.dataSources.sqlserver.driverClassName",
+      "name": "spring.datasource.sqlserver.driver-class-name",
       "type": "java.lang.String",
       "description": "SQL Server database driver class name."
     }

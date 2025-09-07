@@ -47,7 +47,9 @@ public class PostgreSQLConfig {
         dataSource.setUsername(properties.getUsername());
         dataSource.setPassword(properties.getPassword());
         dataSource.setSchema(properties.getSchema());
-        dataSource.setDriverClassName(properties.getDriverClassName());
+        // Try to get driver class name from either camelCase or kebab-case property
+        String driverClassName = properties.getDriverClassName();
+        dataSource.setDriverClassName(driverClassName);
         
         return dataSource;
     }
